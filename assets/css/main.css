@@ -6695,6 +6695,12 @@ body .ui-tooltip {
   color: var(--tp-theme-1);
 
 }
+.contact-info {
+  color: #ffffff;
+}
+.address-info{
+  color: #ffffff;
+}
 @media (max-width: 767px) {
   .tp-footer-top-info-icon i {
     margin-right: 30px;
@@ -9686,9 +9692,14 @@ body .ui-tooltip {
     font-size: 300px;
   }
 }
-.tp-hero-slider-text-wrap {
-  transform: rotate(-30deg);
+.full-width-image {
+  width: 100%;
+  height: 100%;
+  object-fit: contain; 
+  display: block;
 }
+
+
 .tp-hero-slider-text-main {
   position: absolute;
   top: -29%;
